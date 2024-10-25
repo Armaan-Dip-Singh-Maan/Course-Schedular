@@ -1,0 +1,18 @@
+{
+  "notifications": {
+    "title": "Notification Preferences",
+    "channels": {
+      "email": "Email Notifications",
+      "push": "Push Notifications",
+      "sms": "SMS Notifications",
+      "inApp": "In-App Notifications"
+    },
+    "descriptions": {
+      "email": "Receive important updates and reminders via email",
+      "push": "Get instant notifications on your browser",
+      "sms": "Get text message alerts for urgent updates",
+      "inApp": "See notifications while using the app"
+    },
+    "resetDefaults": "Reset to Default Settings"
+  }
+}

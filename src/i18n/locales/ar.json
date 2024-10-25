@@ -1,0 +1,71 @@
+{
+  "common": {
+    "title": "مخطط المقررات",
+    "menu": "القائمة",
+    "searchPlaceholder": "البحث عن المقررات...",
+    "quickTip": "نصيحة سريعة",
+    "loading": "جاري التحميل...",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل"
+  },
+  "schedule": {
+    "title": "الجدول الأسبوعي",
+    "days": {
+      "monday": "الاثنين",
+      "tuesday": "الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "الخميس",
+      "friday": "الجمعة"
+    }
+  },
+  "courses": {
+    "title": "المقررات",
+    "add": "إضافة مقرر",
+    "remove": "حذف المقرر",
+    "search": "البحث عن المقررات",
+    "filters": {
+      "title": "التصفية",
+      "subject": "المادة",
+      "time": "الوقت",
+      "credits": "الساعات المعتمدة",
+      "availability": "التوفر"
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "language": "اللغة",
+    "notifications": "الإشعارات",
+    "theme": "المظهر",
+    "sync": "مزامنة التقويم"
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "settings": "إعدادات الإشعارات",
+    "channels": {
+      "title": "قنوات الإشعارات",
+      "email": "البريد الإلكتروني",
+      "push": "إشعارات الدفع",
+      "sms": "الرسائل القصيرة"
+    },
+    "timing": {
+      "title": "توقيت الإشعارات",
+      "before": "التنبيه قبل المحاضرة",
+      "daily": "التحديثات اليومية",
+      "weekly": "الملخص الأسبوعي"
+    }
+  },
+  "theme": {
+    "light": "الوضع النهاري",
+    "dark": "الوضع الليلي"
+  },
+  "sync": {
+    "title": "المزامنة الخارجية",
+    "google": "تقويم Google",
+    "outlook": "Outlook",
+    "teams": "Microsoft Teams",
+    "success": "تمت المزامنة بنجاح",
+    "error": "فشلت المزامنة"
+  }
+}

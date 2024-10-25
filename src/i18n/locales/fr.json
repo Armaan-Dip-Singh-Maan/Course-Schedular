@@ -1,0 +1,71 @@
+{
+  "common": {
+    "title": "Planificateur de Cours",
+    "menu": "Menu",
+    "searchPlaceholder": "Rechercher des cours...",
+    "quickTip": "Conseil Rapide",
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier"
+  },
+  "schedule": {
+    "title": "Emploi du Temps",
+    "days": {
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi"
+    }
+  },
+  "courses": {
+    "title": "Cours",
+    "add": "Ajouter un Cours",
+    "remove": "Supprimer le Cours",
+    "search": "Rechercher des Cours",
+    "filters": {
+      "title": "Filtres",
+      "subject": "Matière",
+      "time": "Horaire",
+      "credits": "Crédits",
+      "availability": "Disponibilité"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": "Langue",
+    "notifications": "Notifications",
+    "theme": "Thème",
+    "sync": "Synchronisation du Calendrier"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "settings": "Paramètres des Notifications",
+    "channels": {
+      "title": "Canaux de Notification",
+      "email": "Email",
+      "push": "Notifications Push",
+      "sms": "SMS"
+    },
+    "timing": {
+      "title": "Temporisation",
+      "before": "Notifier avant le cours",
+      "daily": "Mises à jour quotidiennes",
+      "weekly": "Résumé hebdomadaire"
+    }
+  },
+  "theme": {
+    "light": "Mode Clair",
+    "dark": "Mode Sombre"
+  },
+  "sync": {
+    "title": "Synchronisation Externe",
+    "google": "Google Calendar",
+    "outlook": "Outlook",
+    "teams": "Microsoft Teams",
+    "success": "Synchronisation réussie",
+    "error": "Échec de la synchronisation"
+  }
+}

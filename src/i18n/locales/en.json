@@ -1,0 +1,41 @@
+{
+  "navigation": {
+    "schedule": "Weekly Schedule",
+    "gpa": "GPA Calculator",
+    "settings": "Settings",
+    "sync": "External Sync"
+  },
+  "support": {
+    "title": "Need Help?",
+    "description": "Check our documentation or contact support for assistance.",
+    "viewDocs": "View Documentation"
+  },
+  "theme": {
+    "dark": "Dark Mode",
+    "light": "Light Mode"
+  },
+  "common": {
+    "title": "Course Scheduler",
+    "menu": "Menu",
+    "close": "Close",
+    "searchPlaceholder": "Search courses...",
+    "quickTip": "Quick Tip"
+  },
+  "tips": {
+    "scheduling": "Consider your peak productivity hours when scheduling classes",
+    "peakHours": "Most students perform better in morning classes",
+    "balance": "Balance your course load across different days",
+    "prerequisites": "Double-check course prerequisites before finalizing",
+    "credits": "Keep track of your total credit hours",
+    "location": "Consider the location of your classes",
+    "extracurricular": "Leave time for extracurricular activities",
+    "courseLoad": "Mix challenging and easier courses",
+    "saveChanges": "Remember to save your schedule changes",
+    "rateMyProfessor": "Research professor ratings before enrolling",
+    "studyGroups": "Plan time for study groups",
+    "breaks": "Schedule breaks between classes",
+    "commute": "Factor in commute time for early classes",
+    "buildings": "Check the distance between buildings",
+    "weather": "Consider seasonal weather when planning"
+  }
+}

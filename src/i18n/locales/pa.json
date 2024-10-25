@@ -1,0 +1,71 @@
+{
+  "common": {
+    "title": "ਕੋਰਸ ਸ਼ੈਡਿਊਲਰ",
+    "menu": "ਮੀਨੂ",
+    "searchPlaceholder": "ਕੋਰਸ ਖੋਜੋ...",
+    "quickTip": "ਤੁਰੰਤ ਸੁਝਾਅ",
+    "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+    "save": "ਸੇਵ ਕਰੋ",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "delete": "ਮਿਟਾਓ",
+    "edit": "ਸੋਧੋ"
+  },
+  "schedule": {
+    "title": "ਹਫਤਾਵਾਰੀ ਸ਼ੈਡਿਊਲ",
+    "days": {
+      "monday": "ਸੋਮਵਾਰ",
+      "tuesday": "ਮੰਗਲਵਾਰ",
+      "wednesday": "ਬੁੱਧਵਾਰ",
+      "thursday": "ਵੀਰਵਾਰ",
+      "friday": "ਸ਼ੁੱਕਰਵਾਰ"
+    }
+  },
+  "courses": {
+    "title": "ਕੋਰਸ",
+    "add": "ਕੋਰਸ ਜੋੜੋ",
+    "remove": "ਕੋਰਸ ਹਟਾਓ",
+    "search": "ਕੋਰਸ ਖੋਜੋ",
+    "filters": {
+      "title": "ਫਿਲਟਰ",
+      "subject": "ਵਿਸ਼ਾ",
+      "time": "ਸਮਾਂ",
+      "credits": "ਕ੍ਰੈਡਿਟ",
+      "availability": "ਉਪਲਬਧਤਾ"
+    }
+  },
+  "settings": {
+    "title": "ਸੈਟਿੰਗਾਂ",
+    "language": "ਭਾਸ਼ਾ",
+    "notifications": "ਸੂਚਨਾਵਾਂ",
+    "theme": "ਥੀਮ",
+    "sync": "ਕੈਲੰਡਰ ਸਿੰਕ"
+  },
+  "notifications": {
+    "title": "ਸੂਚਨਾਵਾਂ",
+    "settings": "ਸੂਚਨਾ ਸੈਟਿੰਗਾਂ",
+    "channels": {
+      "title": "ਸੂਚਨਾ ਚੈਨਲ",
+      "email": "ਈਮੇਲ",
+      "push": "ਪੁਸ਼ ਸੂਚਨਾਵਾਂ",
+      "sms": "ਐਸਐਮਐਸ"
+    },
+    "timing": {
+      "title": "ਸਮਾਂ ਨਿਰਧਾਰਨ",
+      "before": "ਕਲਾਸ ਤੋਂ ਪਹਿਲਾਂ ਸੂਚਿਤ ਕਰੋ",
+      "daily": "ਰੋਜ਼ਾਨਾ ਅੱਪਡੇਟ",
+      "weekly": "ਹਫਤਾਵਾਰੀ ਸੰਖੇਪ"
+    }
+  },
+  "theme": {
+    "light": "ਲਾਈਟ ਮੋਡ",
+    "dark": "ਡਾਰਕ ਮੋਡ"
+  },
+  "sync": {
+    "title": "ਬਾਹਰੀ ਸਿੰਕ",
+    "google": "Google ਕੈਲੰਡਰ",
+    "outlook": "Outlook",
+    "teams": "Microsoft Teams",
+    "success": "ਸਫਲਤਾਪੂਰਵਕ ਸਿੰਕ ਹੋਇਆ",
+    "error": "ਸਿੰਕ ਅਸਫਲ"
+  }
+}

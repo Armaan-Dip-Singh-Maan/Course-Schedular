@@ -1,0 +1,71 @@
+{
+  "common": {
+    "title": "पाठ्यक्रम नियोजक",
+    "menu": "मेनू",
+    "searchPlaceholder": "पाठ्यक्रम खोजें...",
+    "quickTip": "त्वरित सुझाव",
+    "loading": "लोड हो रहा है...",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें"
+  },
+  "schedule": {
+    "title": "साप्ताहिक कार्यक्रम",
+    "days": {
+      "monday": "सोमवार",
+      "tuesday": "मंगलवार",
+      "wednesday": "बुधवार",
+      "thursday": "गुरुवार",
+      "friday": "शुक्रवार"
+    }
+  },
+  "courses": {
+    "title": "पाठ्यक्रम",
+    "add": "पाठ्यक्रम जोड़ें",
+    "remove": "पाठ्यक्रम हटाएं",
+    "search": "पाठ्यक्रम खोजें",
+    "filters": {
+      "title": "फ़िल्टर",
+      "subject": "विषय",
+      "time": "समय",
+      "credits": "क्रेडिट",
+      "availability": "उपलब्धता"
+    }
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "language": "भाषा",
+    "notifications": "सूचनाएं",
+    "theme": "थीम",
+    "sync": "कैलेंडर सिंक"
+  },
+  "notifications": {
+    "title": "सूचनाएं",
+    "settings": "सूचना सेटिंग्स",
+    "channels": {
+      "title": "सूचना चैनल",
+      "email": "ईमेल",
+      "push": "पुश सूचनाएं",
+      "sms": "एसएमएस"
+    },
+    "timing": {
+      "title": "समय निर्धारण",
+      "before": "कक्षा से पहले सूचित करें",
+      "daily": "दैनिक अपडेट",
+      "weekly": "साप्ताहिक सारांश"
+    }
+  },
+  "theme": {
+    "light": "लाइट मोड",
+    "dark": "डार्क मोड"
+  },
+  "sync": {
+    "title": "बाहरी सिंक",
+    "google": "Google कैलेंडर",
+    "outlook": "Outlook",
+    "teams": "Microsoft Teams",
+    "success": "सफलतापूर्वक सिंक हुआ",
+    "error": "सिंक विफल"
+  }
+}

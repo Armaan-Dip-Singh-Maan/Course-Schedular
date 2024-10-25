@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --time-column-width: 80px;
+    --cell-height: 4rem;
+  }
+
+  body {
+    @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+  }
+}
+
+@layer components {
+  .course-block {
+    @apply absolute inset-x-0 mx-0.5 cursor-pointer transition-all duration-200;
+  }
+
+  .course-block:hover {
+    @apply ring-2 ring-offset-2 ring-indigo-500 dark:ring-offset-gray-800;
+  }
+
+  .course-content {
+    @apply p-2 h-full overflow-hidden;
+  }
+
+  .course-title {
+    @apply font-medium text-sm truncate;
+  }
+
+  .course-professor {
+    @apply text-xs opacity-75 truncate;
+  }
+}

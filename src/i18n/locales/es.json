@@ -1,0 +1,22 @@
+{
+  "common": {
+    "quickTip": "Consejo Rápido"
+  },
+  "tips": {
+    "scheduling": "Considera tus horas de mayor productividad al programar clases",
+    "peakHours": "La mayoría de los estudiantes rinden mejor en clases matutinas",
+    "balance": "Equilibra tu carga de cursos durante la semana",
+    "prerequisites": "Verifica los prerrequisitos antes de finalizar tu horario",
+    "credits": "Mantén un registro de tus horas de crédito totales",
+    "location": "Considera la ubicación de tus clases para minimizar el tiempo de viaje",
+    "extracurricular": "Deja tiempo para actividades extracurriculares",
+    "courseLoad": "Combina cursos desafiantes y más fáciles",
+    "saveChanges": "Recuerda guardar los cambios en tu horario",
+    "rateMyProfessor": "Investiga las calificaciones de los profesores",
+    "studyGroups": "Planifica tiempo para grupos de estudio",
+    "breaks": "Programa descansos entre clases",
+    "commute": "Considera el tiempo de viaje para clases tempranas",
+    "buildings": "Verifica la distancia entre edificios",
+    "weather": "Considera el clima estacional al planificar"
+  }
+}
