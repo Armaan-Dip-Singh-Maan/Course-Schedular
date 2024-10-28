@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Calendar, Calculator, Settings as SettingsIcon, Link, Sun, Moon, X, HelpCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -20,6 +20,18 @@ const Sidebar: React.FC<SidebarProps> = ({
   onViewChange
 }) => {
   const { t } = useTranslation();
+  const sidebarRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (isOpen && sidebarRef.current && !sidebarRef.current.contains(event.target as Node)) {
+        onClose();
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [isOpen, onClose]);
 
   const menuItems = [
     {
@@ -51,24 +63,25 @@ const Sidebar: React.FC<SidebarProps> = ({
   return (
     <>
       {isOpen && (
-        <div
-          className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 lg:hidden"
+        <div 
+          className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40" 
           onClick={onClose}
         />
       )}
 
       <aside
+        ref={sidebarRef}
         className={`fixed top-0 left-0 h-full w-64 bg-white dark:bg-gray-800 shadow-xl z-50 
         transform transition-transform duration-300 ease-in-out ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
-        } lg:translate-x-0`}
+        }`}
       >
         <div className="flex flex-col h-full">
           <div className="p-4 flex justify-between items-center border-b dark:border-gray-700">
             <h2 className="text-lg font-semibold">{t('common.menu')}</h2>
             <button
               onClick={onClose}
-              className="lg:hidden p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg"
+              className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg"
             >
               <X className="w-5 h-5" />
             </button>
@@ -78,7 +91,10 @@ const Sidebar: React.FC<SidebarProps> = ({
             {menuItems.map((item) => (
               <button
                 key={item.id}
-                onClick={() => onViewChange(item.view as any)}
+                onClick={() => {
+                  onViewChange(item.view as any);
+                  onClose();
+                }}
                 className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-colors ${
                   currentView === item.view
                     ? 'bg-indigo-50 dark:bg-indigo-900/50 text-indigo-600 dark:text-indigo-400'
