@@ -1,22 +1,74 @@
 {
+  "navigation": {
+    "schedule": "Horario semanal",
+    "gpa": "Calculadora de GPA",
+    "settings": "Configuración",
+    "sync": "Sincronización externa"
+  },
+  "support": {
+    "title": "¿Necesitas ayuda?",
+    "description": "Consulta nuestra documentación o contacta al soporte para asistencia.",
+    "viewDocs": "Ver documentación"
+  },
+  "theme": {
+    "dark": "Modo oscuro",
+    "light": "Modo claro"
+  },
   "common": {
-    "quickTip": "Consejo Rápido"
+    "title": "Programador de cursos",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "searchPlaceholder": "Buscar cursos...",
+    "quickTip": "Consejo rápido"
   },
   "tips": {
     "scheduling": "Considera tus horas de mayor productividad al programar clases",
-    "peakHours": "La mayoría de los estudiantes rinden mejor en clases matutinas",
-    "balance": "Equilibra tu carga de cursos durante la semana",
-    "prerequisites": "Verifica los prerrequisitos antes de finalizar tu horario",
-    "credits": "Mantén un registro de tus horas de crédito totales",
-    "location": "Considera la ubicación de tus clases para minimizar el tiempo de viaje",
+    "peakHours": "La mayoría de los estudiantes rinden mejor en las clases matutinas",
+    "balance": "Equilibra tu carga de cursos en diferentes días",
+    "prerequisites": "Revisa los prerrequisitos de los cursos antes de finalizar",
+    "credits": "Mantén un registro de tus horas de crédito total",
+    "location": "Considera la ubicación de tus clases",
     "extracurricular": "Deja tiempo para actividades extracurriculares",
-    "courseLoad": "Combina cursos desafiantes y más fáciles",
-    "saveChanges": "Recuerda guardar los cambios en tu horario",
-    "rateMyProfessor": "Investiga las calificaciones de los profesores",
-    "studyGroups": "Planifica tiempo para grupos de estudio",
+    "courseLoad": "Mezcla cursos desafiantes y fáciles",
+    "saveChanges": "Recuerda guardar los cambios de tu horario",
+    "rateMyProfessor": "Investiga las calificaciones de los profesores antes de inscribirte",
+    "studyGroups": "Planea tiempo para grupos de estudio",
     "breaks": "Programa descansos entre clases",
-    "commute": "Considera el tiempo de viaje para clases tempranas",
+    "commute": "Ten en cuenta el tiempo de traslado para clases tempranas",
     "buildings": "Verifica la distancia entre edificios",
     "weather": "Considera el clima estacional al planificar"
+  },
+  "notifications": {
+    "title": "Configuración de notificaciones",
+    "channels": {
+      "title": "Canales de notificación",
+      "email": "Notificaciones por correo electrónico",
+      "push": "Notificaciones instantáneas",
+      "sms": "Notificaciones por SMS",
+      "inApp": "Notificaciones en la aplicación"
+    },
+    "descriptions": {
+      "email": "Recibe actualizaciones importantes y recordatorios en tu correo",
+      "push": "Recibe notificaciones instantáneas del navegador",
+      "sms": "Recibe actualizaciones urgentes por mensaje de texto",
+      "inApp": "Ve las notificaciones mientras usas la aplicación"
+    },
+    "timing": {
+      "title": "Horario de notificaciones",
+      "beforeClass": "Recordatorios antes de clase",
+      "daily": "Actualizaciones diarias del horario",
+      "weekly": "Resumen semanal"
+    },
+    "preferences": {
+      "title": "Preferencias",
+      "sound": "Sonido de notificación",
+      "desktop": "Notificaciones de escritorio",
+      "mobile": "Notificaciones móviles"
+    },
+    "actions": {
+      "save": "Guardar preferencias",
+      "reset": "Restablecer a valores predeterminados",
+      "test": "Enviar notificación de prueba"
+    }
   }
 }

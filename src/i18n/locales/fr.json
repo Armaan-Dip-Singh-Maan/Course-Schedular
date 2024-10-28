@@ -1,71 +1,74 @@
 {
-  "common": {
-    "title": "Planificateur de Cours",
-    "menu": "Menu",
-    "searchPlaceholder": "Rechercher des cours...",
-    "quickTip": "Conseil Rapide",
-    "loading": "Chargement...",
-    "save": "Enregistrer",
-    "cancel": "Annuler",
-    "delete": "Supprimer",
-    "edit": "Modifier"
+  "navigation": {
+    "schedule": "Horaire hebdomadaire",
+    "gpa": "Calculateur de GPA",
+    "settings": "Paramètres",
+    "sync": "Synchronisation externe"
   },
-  "schedule": {
-    "title": "Emploi du Temps",
-    "days": {
-      "monday": "Lundi",
-      "tuesday": "Mardi",
-      "wednesday": "Mercredi",
-      "thursday": "Jeudi",
-      "friday": "Vendredi"
-    }
-  },
-  "courses": {
-    "title": "Cours",
-    "add": "Ajouter un Cours",
-    "remove": "Supprimer le Cours",
-    "search": "Rechercher des Cours",
-    "filters": {
-      "title": "Filtres",
-      "subject": "Matière",
-      "time": "Horaire",
-      "credits": "Crédits",
-      "availability": "Disponibilité"
-    }
-  },
-  "settings": {
-    "title": "Paramètres",
-    "language": "Langue",
-    "notifications": "Notifications",
-    "theme": "Thème",
-    "sync": "Synchronisation du Calendrier"
-  },
-  "notifications": {
-    "title": "Notifications",
-    "settings": "Paramètres des Notifications",
-    "channels": {
-      "title": "Canaux de Notification",
-      "email": "Email",
-      "push": "Notifications Push",
-      "sms": "SMS"
-    },
-    "timing": {
-      "title": "Temporisation",
-      "before": "Notifier avant le cours",
-      "daily": "Mises à jour quotidiennes",
-      "weekly": "Résumé hebdomadaire"
-    }
+  "support": {
+    "title": "Besoin d'aide ?",
+    "description": "Consultez notre documentation ou contactez le support pour obtenir de l'aide.",
+    "viewDocs": "Voir la documentation"
   },
   "theme": {
-    "light": "Mode Clair",
-    "dark": "Mode Sombre"
+    "dark": "Mode sombre",
+    "light": "Mode clair"
   },
-  "sync": {
-    "title": "Synchronisation Externe",
-    "google": "Google Calendar",
-    "outlook": "Outlook",
-    "teams": "Microsoft Teams",
-    "success": "Synchronisation réussie",
-    "error": "Échec de la synchronisation"
+  "common": {
+    "title": "Planificateur de cours",
+    "menu": "Menu",
+    "close": "Fermer",
+    "searchPlaceholder": "Rechercher des cours...",
+    "quickTip": "Astuce rapide"
+  },
+  "tips": {
+    "scheduling": "Considérez vos heures de productivité de pointe lors de la planification des cours",
+    "peakHours": "La plupart des étudiants sont plus performants le matin",
+    "balance": "Équilibrez votre charge de cours sur différents jours",
+    "prerequisites": "Vérifiez les prérequis avant de finaliser",
+    "credits": "Suivez votre total d'heures de crédit",
+    "location": "Tenez compte de l'emplacement des cours",
+    "extracurricular": "Laissez du temps pour des activités parascolaires",
+    "courseLoad": "Mélangez des cours difficiles et plus faciles",
+    "saveChanges": "N'oubliez pas de sauvegarder vos modifications d'emploi du temps",
+    "rateMyProfessor": "Consultez les évaluations des professeurs avant de vous inscrire",
+    "studyGroups": "Planifiez du temps pour les groupes d'étude",
+    "breaks": "Prévoyez des pauses entre les cours",
+    "commute": "Prenez en compte le temps de trajet pour les cours tôt",
+    "buildings": "Vérifiez la distance entre les bâtiments",
+    "weather": "Tenez compte de la météo saisonnière dans votre planification"
+  },
+  "notifications": {
+    "title": "Paramètres de notification",
+    "channels": {
+      "title": "Canaux de notification",
+      "email": "Notifications par email",
+      "push": "Notifications push",
+      "sms": "Notifications SMS",
+      "inApp": "Notifications dans l'application"
+    },
+    "descriptions": {
+      "email": "Recevez des mises à jour importantes dans votre boîte mail",
+      "push": "Recevez des notifications instantanées sur votre navigateur",
+      "sms": "Recevez des mises à jour urgentes par SMS",
+      "inApp": "Voir les notifications pendant l'utilisation de l'application"
+    },
+    "timing": {
+      "title": "Horaire des notifications",
+      "beforeClass": "Rappels avant les cours",
+      "daily": "Mises à jour quotidiennes de l'horaire",
+      "weekly": "Résumé hebdomadaire"
+    },
+    "preferences": {
+      "title": "Préférences",
+      "sound": "Son de notification",
+      "desktop": "Notifications de bureau",
+      "mobile": "Notifications mobiles"
+    },
+    "actions": {
+      "save": "Enregistrer les préférences",
+      "reset": "Réinitialiser aux valeurs par défaut",
+      "test": "Envoyer une notification de test"
+    }
   }
 }

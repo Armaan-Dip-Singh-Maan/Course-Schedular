@@ -37,5 +37,40 @@
     "commute": "Factor in commute time for early classes",
     "buildings": "Check the distance between buildings",
     "weather": "Consider seasonal weather when planning"
-  }
+  },
+  
+    "notifications": {
+      "title": "Notification Settings",
+      "channels": {
+        "title": "Notification Channels",
+        "email": "Email Notifications",
+        "push": "Push Notifications",
+        "sms": "SMS Notifications",
+        "inApp": "In-App Notifications"
+      },
+      "descriptions": {
+        "email": "Get important updates and reminders in your inbox",
+        "push": "Receive instant browser notifications",
+        "sms": "Get urgent updates via text message",
+        "inApp": "See notifications while using the app"
+      },
+      "timing": {
+        "title": "Notification Timing",
+        "beforeClass": "Before class reminders",
+        "daily": "Daily schedule updates",
+        "weekly": "Weekly summary"
+      },
+      "preferences": {
+        "title": "Preferences",
+        "sound": "Notification sound",
+        "desktop": "Desktop notifications",
+        "mobile": "Mobile notifications"
+      },
+      "actions": {
+        "save": "Save preferences",
+        "reset": "Reset to defaults",
+        "test": "Send test notification"
+      }
+    }
+  
 }
